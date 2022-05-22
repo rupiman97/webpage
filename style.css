@@ -1,0 +1,236 @@
+body{
+    font-family: helvetica, arial, sans-serif;
+}
+
+.contactsNavbar{
+    padding-right: 20px;
+}
+
+@keyframes moveBackground{
+    from{
+        background-position: 50% 50%;
+    }
+    to{
+        background-position: 40% 40%;
+    }
+}
+
+.section1{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.7),rgba(0, 0, 255, 0.3)), url("img/honeycomb.jpg");
+    transition: background-position 25s ease;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-bottom:3px;
+    animation-duration: 10s;
+    animation-name: moveBackground;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.section3{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.7),rgba(255, 94, 0, 0.4)), url("img/high_res2.jpg");
+    margin-top:3px;
+    margin-bottom: 3px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    animation-duration: 20s;
+    animation-name: moveBackground;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section4{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.7),rgba(0, 255, 13, 0.493)), url("img/high_res3.jpg");
+    transition: background-position 25s ease;
+    margin-top:3px;
+    margin-bottom: 3px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    animation-duration: 20s;
+    animation-name: moveBackground;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.section5{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.7),rgba(255, 0, 255, 0.521)), url("img/high_res4.jpg");
+    background-position: 50% 50%;
+    transition: background-position 25s ease;
+    margin-top:3px;
+    margin-bottom: 3px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    animation-duration: 20s;
+    animation-name: moveBackground;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+p{
+    color: black;
+    font-size: 24px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left:10px;
+    line-height: 1.3;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.quote{
+    font-size: 50px;
+    color:skyblue;
+}
+
+.dottedBorder{
+    background-image: linear-gradient(to right, #000 10%, rgba(255, 255, 255, 0) 0%);
+    border-top:3px solid #262626;
+    background-position: top;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+}
+
+/* zoom out image effect*/
+#zoomdiv {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#zoomdiv:hover {
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+    z-index: 9;
+}
+
+#profile_pic{
+    border: 2px solid black;
+}
+
+.carouselZoom{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.carouselZoom:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    z-index: 9;
+}
+
+
+.borderStyle:hover{
+    border: 3px solid black;
+}
+
+.carouselSize{
+    height: 500px;
+    object-fit: cover;
+}
+
+.carouselBorder{
+    border: 1px solid black;
+    
+}
+
+.carouselBorder:hover{
+    border: 3px solid black;
+    transition: border 0.1s ease-in-out;
+}
+
+.contacts{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.tablePrinterProperties{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.tablePrinterProperties tr th:first-child{
+    text-align: left;
+}
+
+.tablePrinterProperties tr th:nth-child(2){
+    text-align: right;
+    color: red;
+}
+
+.tablePrinterProperties tr:nth-child(even){
+    background-color: rgba(99, 99, 207, 0.384)
+}
+
+.tablePrinterProperties tr:nth-child(odd){
+    background-color: rgba(199, 199, 218, 0.2)
+}
+
+.tablePrice{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.tablePrice tr th:first-child{
+    text-align: left;
+    color:red;
+}
+
+.tablePrice tr th:nth-child(2){
+    text-align: right;
+}
+
+.tablePrice tr:nth-child(even){
+    background-color: rgba(99, 99, 207, 0.384)
+}
+
+.tablePrice tr:nth-child(odd){
+    background-color: rgba(199, 199, 218, 0.2)
+}
+
+.tableBorderSeparate{
+    border-bottom: 2px solid black; 
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.navBackground:hover{
+    background-color:#807d7dc0;
+    border-radius: 3px;
+    padding-bottom: auto;
+    padding-top: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navText{
+    font-weight: bold;
+}
+
+.selfPic{
+    height: 70%;
+}
+
+.titleColor{
+    color:black;
+    font-size: 56px;
+}
+
+.navbarText{
+    color: black;
+}

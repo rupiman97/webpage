@@ -1,0 +1,9 @@
+.newPage{
+    border-top: 3px solid black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    animation-name: pageBorder;
+    transition: transform 2s ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
